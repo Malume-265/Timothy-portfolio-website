@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I'm Timothy</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="ionicons/css/ionicons.min.css" />
+  <link rel="stylesheet" href="css/stisla.css" />
+
+  <style>
+    body, html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    .btn-outline-light {
+      border: 2px solid #fff;
+      color: #fff;
+    }
+
+    .btn-outline-light:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    @media (max-width: 576px) {
+      .contact-info {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand-lg main-navbar sticky-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <!-- Logo + Contact Info -->
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand mr-3" href="#">
+          <img src="img/logo-light.png" alt="Logo" style="max-height: 40px;">
+        </a>
+
+        <div class="contact-info text-white small d-flex flex-wrap align-items-center gap-3">
+          <div class="d-flex align-items-center">
+            <i class="ion-ios-telephone mr-2"></i>
+            <span>+265 889 89 26 24</span>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="ion-ios-location mr-2"></i>
+            <span>Blantyre, Malawi</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"><i class="ion-navicon"></i></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item active"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#articles-section">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        </ul>
+        <form class="form-inline">
+          <a href="#contact" class="btn btn-outline-light">Need Help?</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <section class="hero bg-overlay d-flex align-items-center" id="hero" data-bg="img/hero.jpeg" style="min-height: 100vh;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <div class="text py-5 text-left">
+              <!-- Large Welcome -->
+              <p class="lead text-white mb-3" style="font-size: 4rem; font-weight: 800;">HI</p>
+
+              <!-- Full Name -->
+              <h1 class="text-white mb-2" style="font-size: 2.8rem; font-weight: 700;">
+                I'm Timothy Naluso
+              </h1>
+
+              <!-- Typing Effect -->
+              <h2 class="text-light mb-4" style="font-size: 1.10rem; font-weight: 400; overflow: hidden;">
+                <span class="typed-role"></span>
+              </h2>
+
+              <!-- CTA Button -->
+              <div class="cta mt-3">
+                <a href="Timothy Naluso resume.pdf" class="btn btn-primary smooth-link">Get my resume</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Elfsight AI Chatbot | Untitled AI Chatbot -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-df87b82f-5048-45e2-938c-019d7bd48e16" data-elfsight-app-lazy></div>
+
+
+<!-- Typed.js Script -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed(".typed-role", {
+    strings: [
+      "Psychology and behavioral scientist",
+      "AI productivity and utilisation practitioner",
+      "Strategic management and development enthusiast",
+      "Graphic designer"
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 2000,
+    loop: true
+  });
+</script>
+
+<section class="padding" id="features">
+  <div class="container">
+
+    <div class="section-header text-center mb-5">
+  <h2 class="section-title" style="font-weight: 700; font-size: 2.5rem; color: #000839;">
+    My Toolbox
+  </h2>
+  <p class="section-subtitle" style="color: #666; font-size: 1.1rem;">
+    A curated set of skills I bring to every project
+  </p>
+</div>
+ <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card p-4">
+          <div class="icon" style="font-size: 2rem;">📊</div>
+          <h2>Research & Data Analysis</h2>
+          <p class="skill-text" data-full="Proficient in both qualitative and quantitative research methodologies, with the ability to design, conduct, and analyze studies that generate actionable insights and support evidence-based decision-making across a range of disciplines and real-world applications."></p>
+          <span class="read-more" style="color: #007bff; cursor: pointer; user-select: none;">Read More</span>
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card p-4">
+          <div class="icon" style="font-size: 2rem;">🤖</div>
+          <h2>AI Integration & Productivity</h2>
+          <p class="skill-text" data-full="Leveraging AI tools to streamline workflows, automate routine tasks, enhance creativity, support smarter decision-making, and optimize performance across diverse professional fields from human resources and creative design to operations, marketing, and beyond."></p>
+          <span class="read-more" style="color: #007bff; cursor: pointer; user-select: none;">Read More</span>
+        </div>
+      </div>
+
+      <!-- Skill 3 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card p-4">
+          <div class="icon" style="font-size: 2rem;">🧠</div>
+          <h2>Behavioral Science</h2>
+          <p class="skill-text" data-full="Applying psychology to understand, predict, and influence human behavior in real-world scenarios."></p>
+          <span class="read-more" style="color: #007bff; cursor: pointer; user-select: none;">Read More</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="skills.html" class="btn btn-primary btn-see-all">See All Skills</a>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('#features .skill-text').forEach(p => {
+    const fullText = p.getAttribute('data-full');
+    const preview = fullText.length > 100 ? fullText.slice(0, 100) + '...' : fullText;
+    p.textContent = preview;
+  });
+
+  document.querySelectorAll('#features .read-more').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const p = btn.previousElementSibling;
+      const fullText = p.getAttribute('data-full');
+      if (btn.textContent === 'Read More') {
+        p.textContent = fullText;
+        btn.textContent = 'Read Less';
+      } else {
+        p.textContent = fullText.length > 100 ? fullText.slice(0, 100) + '...' : fullText;
+        btn.textContent = 'Read More';
+      }
+    });
+  });
+</script>
+
+
+<!-- Glider Styles -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  /* General Layout */
+  #thoughts {
+    padding: 3rem 1rem;
+    background: #f9f9ff;
+  }
+
+  .container {
+    max-width: 1080px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #16003b;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-lead {
+    font-size: 1.05rem;
+    color: #555;
+    margin-bottom: 2rem;
+    max-width: 720px;
+    margin-inline: auto;
+  }
+
+ <style>
+  /* Thought Cards */
+  .thought-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.75), rgba(240,240,255,0.7));
+  border-radius: 18px;
+  padding: 2rem 1.5rem;
+  margin: 0 0.75rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: none;
+  backdrop-filter: blur(6px);
+}
+
+.thought-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+
+  .thought-card .icon-bg {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #16003b 60%, #007bff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(192, 165, 255, 0.804);
+    color: #fff;
+    font-size: 1.6rem;
+  }
+
+  .thought-card h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #16003b;
+    margin-bottom: 0.5rem;
+  }
+
+  .thought-card p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+
+  /* Glider Controls */
+  .glider-contain {
+    position: relative;
+    padding: 0 2.5rem;
+  }
+
+  .glider-prev,
+  .glider-next {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background: #16003b;
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s ease;
+  }
+
+  .glider-prev:hover,
+  .glider-next:hover {
+    background: #007bff;
+  }
+
+  .glider-prev {
+    left: -25px;
+  }
+
+  .glider-next {
+    right: -25px;
+  }
+
+  .dots {
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .glider-contain {
+      padding: 0 1rem;
+    }
+
+    .glider-prev,
+    .glider-next {
+      font-size: 1.5rem;
+      width: 38px;
+      height: 38px;
+    }
+
+    .glider-prev {
+      left: -20px;
+    }
+
+    .glider-next {
+      right: -20px;
+    }
+  }
+</style>
+
+<section id="thoughts" aria-label="Insight Carousel" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center fw-bold mb-3">Insight Hub</h2>
+    <p class="section-lead text-center text-muted mb-4">
+      Sharp, timely reflections on innovation, mindset, performance, and leadership for the modern professional.
+    </p>
+
+    <div class="glider-contain position-relative">
+      <div class="glider">
+        <!-- Thought Cards -->
+        <div class="thought-card"><div class="icon-bg">🤖</div><h4>AI & Human Productivity</h4><p>AI is not a replacement — it’s a force multiplier. Let machines handle repetition, while humans drive creativity and strategy.</p></div>
+        <div class="thought-card"><div class="icon-bg">🧠</div><h4>Mental Health & Focus</h4><p>A clear mind leads to decisive action. Without mental clarity, even the best strategies fall short.</p></div>
+        <div class="thought-card"><div class="icon-bg">📈</div><h4>Strategic Discipline</h4><p>True growth isn’t about rushing — it’s about consistent momentum, intentionality, and alignment.</p></div>
+        <div class="thought-card"><div class="icon-bg">📚</div><h4>Learning as Leverage</h4><p>In fast-paced environments, continuous learning is not optional. It’s the highest-yield investment.</p></div>
+        <div class="thought-card"><div class="icon-bg">🧘</div><h4>Well-being Drives Performance</h4><p>Take breaks. Prioritize recovery. Peak output requires sustainable input.</p></div>
+        <div class="thought-card"><div class="icon-bg">💚</div><h4>Rest Is Strategic</h4><p>High performance isn’t just hustle — it’s knowing when to pause, reflect, and recover.</p></div>
+        <div class="thought-card"><div class="icon-bg">🚀</div><h4>Strong Leadership</h4><p>Leadership starts with self-awareness. Vision without clarity is noise.</p></div>
+        <div class="thought-card"><div class="icon-bg">💡</div><h4>Build Resilience</h4><p>Make resilience part of your operating system — in both mindset and business models.</p></div>
+        <div class="thought-card"><div class="icon-bg">👥</div><h4>Check in on Your Team</h4><p>Your people are your power. Culture eats strategy for breakfast.</p></div>
+        <div class="thought-card"><div class="icon-bg">🎯</div><h4>Measurable Goals Win</h4><p>Set targets. Track progress. Clarity creates results.</p></div>
+      </div>
+
+      <!-- Navigation -->
+      <button class="glider-prev" aria-label="Previous Slide">&#10094;</button>
+      <button class="glider-next" aria-label="Next Slide">&#10095;</button>
+      <div role="tablist" class="dots mt-3 text-center"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Glider Script -->
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script>
+  const gliderElement = document.querySelector('.glider');
+  const glider = new Glider(gliderElement, {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    draggable: true,
+    dots: '.dots',
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    },
+    responsive: [
+      { breakpoint: 768, settings: { slidesToShow: 2 } },
+      { breakpoint: 1024, settings: { slidesToShow: 3 } }
+    ]
+  });
+
+  // Auto-slide every 6s
+  let current = 0;
+  setInterval(() => {
+    current = (glider.page + 1) % glider.pages;
+    glider.scrollItem(current);
+  }, 6000);
+</script>
+
+
+
+<section class="articles-section" id="articles-section" style="background: url('img/background3.jpg') center center / cover no-repeat fixed;">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2 class="section-names">Featured Articles</h2>
+    <p class="section-subtitle">
+      A glimpse into my recent thoughts and contributions
+    </p>
+
+    <div class="articles-grid">
+      <!-- Article 1 -->
+      <div class="article-card">
+        <h3 class="article-title">AI: Humanity’s Best Friend or Enemy?</h3>
+        <p class="article-excerpt">
+          Exploring the dynamic and often controversial relationship between humanity's productivity and Artificial Intelligence (AI).
+        </p>
+        <a href="articles/main/AI Humanity’s Best Friend or Enemy.html" class="read-more">Read Article →</a>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/timothy-naluso-340413280"><i class="fab fa-linkedin"></i></a>
+          <a href="https://web.facebook.com/groups/959750777535536/user/100067685672183/"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/nalusotimothy265"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.researchgate.net/profile/Timothy-Naluso/network?ev=prf_int_tab"><i class="fab fa-researchgate"></i></a>
+        </div>
+      </div>
+
+      <!-- Article 2 -->
+      <div class="article-card">
+        <h3 class="article-title">Men’s Mental Wellness in Africa: A Silent Battle</h3>
+        <p class="article-excerpt">
+          Unpacking the realities of men’s mental health and how communities can build supportive systems.
+        </p>
+        <a href="articles/main/Mens Mental Wellness in Africa A Silent Battle.html" class="read-more">Read Write-up →</a>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/timothy-naluso-340413280"><i class="fab fa-linkedin"></i></a>
+          <a href="https://web.facebook.com/groups/959750777535536/user/100067685672183/"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/nalusotimothy265"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.researchgate.net/profile/Timothy-Naluso/network?ev=prf_int_tab"><i class="fab fa-researchgate"></i></a>
+        </div>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="article-card">
+        <h3 class="article-title">Strategic Management and Mental Health</h3>
+        <p class="article-excerpt">
+          Why forward-thinking companies now treat mental wellness as a strategic advantage—more than just care, it’s smart strategy.
+        </p>
+        <a href="articles/main/Strategic Management and Mental Health.html" class="read-more">Read Write-up →</a>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/timothy-naluso-340413280"><i class="fab fa-linkedin"></i></a>
+          <a href="https://web.facebook.com/groups/959750777535536/user/100067685672183/"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/nalusotimothy265"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.researchgate.net/profile/Timothy-Naluso/network?ev=prf_int_tab"><i class="fab fa-researchgate"></i></a>
+        </div>
+      </div>
+
+      <!-- See All Button Card -->
+      <div class="article-card see-all-card">
+        <div class="see-all-content">
+          <p class="see-all-text">Discover more of my thoughts, insights, and commentary</p>
+          <a href="writeups.html" class="see-all-button">See All Articles & Write-ups →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding bg-grey" id="graphics">
+  <div class="container">
+    <!-- Section Heading -->
+    <h2 class="section-title">I Also Design Graphics</h2>
+    <p class="section-lead text-muted">From brand identities to event posters, here are a few creative pieces I’ve brought to life.</p>
+
+    <!-- Projects Grid -->
+    <div class="section-body">
+      <div class="row col-spacing">
+
+        <!-- Project Card 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card design-card">
+            <img class="card-img-top" src="img/graphics/society.png" alt="Mental Health Poster">
+            <div class="card-body">
+              <div class="card-subtitle mb-2 text-muted">Poster • 2024</div>
+              <h4 class="card-title">Mental Health Awareness</h4>
+              <p class="card-text">bold, clean designs used by various campaigns to promote mental well-being and open conversations.</p>
+              <div class="text-right">
+                <a href="#" class="card-more">View details<i class="ion-ios-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card design-card">
+            <img class="card-img-top" src="img/graphics/Screenshot 2025-05-07 103448.png" alt="Brand Identity">
+            <div class="card-body">
+              <div class="card-subtitle mb-2 text-muted">Product branding• </div>
+              <h4 class="card-title">Lotion wabho</h4>
+              <p class="card-text">Crafting of fresh and modern identity for various products, combining trust, energy and creativity.</p>
+              <div class="text-right">
+                <a href="#" class="card-more">View details <i class="ion-ios-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card design-card">
+            <img class="card-img-top" src="img/graphics/la.png" alt="Event Flyer">
+            <div class="card-body">
+              <div class="card-subtitle mb-2 text-muted">Flyer • 2024</div>
+              <h4 class="card-title">Corporate branding</h4>
+              <p class="card-text"> Designing of  energetic and informative banners &  for firms,corporate brands and institutions to attract a wider crowd.</p>
+              <div class="text-right">
+                <a href="#" class="card-more">View details <i class="ion-ios-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card design-card">
+            <img class="card-img-top" src="img/graphics/society l2.jpg" alt="Social Media Graphic">
+            <div class="card-body">
+              <div class="card-subtitle mb-2 text-muted">Social Media • 2025</div>
+              <h4 class="card-title">Various corporate event, meetings and initiatives posters</h4>
+              <p class="card-text"> eye catching and proffesional event posters.</p>
+              <div class="text-right">
+                <a href="#" class="card-more">View details <i class="ion-ios-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Subscription Footer -->
+    <div class="row align-items-center mt-5">
+      <div class="col-12 col-md-6">
+        <h2 class="mb-2">Don't miss an update</h2>
+        <p class="text-muted">Drop your email and I’ll send you updates on my latest creative works and wite-ups.</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <form class="subscribe d-flex flex-column flex-md-row gap-2" action="#">
+          <input type="email" name="email" class="form-control" placeholder="Your email" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <section class="bg-overlay padding" id="resume" data-bg="img/projects.jpeg">
+  <div class="container">
+    <div class="row align-items-start flex-column flex-md-row">
+
+  <!-- Left Column: Resume Illustration -->
+<div class="col-12 col-md-5 mb-4 mb-md-0 d-flex flex-column justify-content-center align-items-center">
+  <div class="resume-image-container mb-3">
+    <img src="img/youzhang.png" alt="Timothy Naluso" class="resume-image-pro">
+  </div>
+
+  <!-- CTA Buttons BELOW the image -->
+  <div class="projects-cta">
+    <a href="Timothy Naluso resume.pdf" class="btn btn-primary me-2 mb-2" download>Download Full CV</a>
+    <a href="#contact" class="btn btn-outline-light mb-2">Get in Touch</a>
+  </div>
+</div>
+
+
+<!-- Right Column: Resume Content -->
+<div class="col-12 col-md-7 text-white">
+  <!-- Badge -->
+  <div class="projects-badge mb-3">My Resume</div>
+
+  <!-- Title -->
+  <h2 class="projects-title">Brief Resume</h2>
+  <p class="projects-badge mb-3">
+    From strategy rooms to mental health spaces: a journey shaped by vision, growth, and meaningful impact.
+  </p>
+
+  <!-- Resume Cards Grid -->
+  <div class="resume-grid mt-4">
+
+    <!-- Awards -->
+    <div class="resume-card animate">
+      <h4>Awards & Recognition</h4>
+      <ul>
+        <li><strong>2022:</strong> Exceptional Commitment Award – Kwera Fund</li>
+        <li><strong>2023:</strong> Team Player & Leadership Award – Kwera Fund</li>
+      </ul>
+    </div>
+
+    <!-- Education -->
+    <div class="resume-card animate delay-1">
+      <h4>Education</h4>
+      <ul>
+        <li><strong>2021 – Present:</strong> BA Psychology & Minor in Admin Studies – University of Malawi</li>
+      </ul>
+    </div>
+
+    <!-- Development -->
+    <div class="resume-card animate delay-2">
+      <h4>Professional Development</h4>
+      <ul>
+        <li><strong>2022:</strong> Project Planning & Management Certification</li>
+        <li><strong>2023:</strong> Strategic Management Workshop</li>
+        <li><strong>Ongoing:</strong> AMHA Mental Health Conferences</li>
+      </ul>
+    </div>
+
+    <!-- Demographic and personal Data -->
+    <div class="resume-card animate delay-3">
+      <h4>Demographic Data</h4>
+      <ul>
+        <li><strong>Date of Birth:</strong> 06 October 2002</li>
+        <li><strong>Sex:</strong> Male</li>
+        <li><strong>Nationality:</strong> Malawian</li>
+        <li><strong>Marital Status:</strong> Single</li>
+        <li><strong>District of Origin:</strong> Blantyre</li>
+        <li><strong>Place of Birth:</strong> Blantyre</li>
+        <li><strong>Current Residence:</strong> Blantyre</li>
+        <li><strong>Languages:</strong> English, Chichewa</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+			<section class="padding bg-grey" id="contact">
+  <div class="container">
+    <h2 class="section-title text-center" style="color: #180044;">Contact Timothy</h2>
+    <p class="section-subtitle text-center" style="color: #007bff;size: 0.9rem;"> Let's build a connection. Feel free to reach out to me for hiring, partnerships, projects or just to say hello 🙂
+    </p>
+    
+    <div class="row col-spacing">
+      <!-- Contact Form -->
+      <div class="col-12 col-md-7 mb-4">
+        <form action="https://formspree.io/f/mqalkndv" method="POST" id="contactForm" class="contact-form p-4 p-md-5 bg-white rounded shadow-sm">
+          <div class="form-group mb-3">
+            <label for="name" class="sr-only">Your Name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="email" class="sr-only">Your Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="subject" class="sr-only">Subject</label>
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mb-4">
+            <label for="message" class="sr-only">Your Message</label>
+            <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="form-group text-end">
+            <button type="submit" class="btn btn-primary px-4">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Contact Info & Map -->
+      <div class="col-12 col-md-5 mb-4">
+        <p class="contact-text text-center text-md-left">
+          Let’s connect! For any project, event, collaboration, or just to keep in touch I’m available between <strong>08:00 – 21:00 CAT</strong>.
+        </p>
+        <ul class="contact-icon list-unstyled d-flex flex-column gap-3 my-4 p-3 bg-white rounded shadow-sm">
+          <li class="d-flex align-items-center gap-3">
+            <i class="ion ion-ios-telephone fs-4 text-primary" style="color:#d97706;"></i>
+            <div class="fs-5 fw-semibold" style="color:#333;">+265 889 89 26 24</div>
+          </li>
+          <li class="d-flex align-items-center gap-3">
+            <i class="ion ion-ios-email fs-4 text-primary" style="color:#d97706;"></i>
+            <div class="fs-5 fw-semibold" style="color:#333;">nalusotimo@gmail.com</div>
+          </li>
+        </ul>
+        <address class="address-text bg-white p-3 rounded shadow-sm" style="font-style: normal; font-size: 1rem; color: #444; line-height: 1.5;">
+          Zip code: 312229,<br>
+          Limbe, Blantyre Urban,<br>
+          Southern Region,<br>
+          Malawi
+        </address>
+        <div class="map-wrapper rounded shadow-sm overflow-hidden mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.8089229066754!2d35.01831181525878!3d-15.786107788698578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185f3a7c0f2e7f2f%3A0xd66e01f1c7bdbd88!2sBlantyre%2C%20Malawi!5e0!3m2!1sen!2sus!4v1689552506104!5m2!1sen!2sus"
+            width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            aria-label="Blantyre Malawi Location"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Made with love message -->
+    <div class="text-center mt-5 made-with-love" style="font-style: italic; color: #00aaff;size: 2.0rem;">
+      Made with <span style="color: #e25555; size: 2.0rem;">❤️</span> by Malume collective solutions.co
+    </div>
+  </div>
+</section>
+
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/jquery.easeScroll.js"></script>
+		<script src="sweetalert/dist/sweetalert.min.js"></script>
+		<script src="js/stisla.js"></script>
+	
